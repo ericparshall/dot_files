@@ -12,4 +12,11 @@ defbce on
 # mouse tracking allows to switch region focus by clicking
 mousetrack on
 
+# default windows
+screen -t Consul  1 consul
+screen -t Batcave 2 bash
+screen -t nav-cli 3 bash
+select 0
 
+bindkey "^[[1;5D" layout prev
+bindkey "^[[1;5C" layout next

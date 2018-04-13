@@ -18,3 +18,4 @@ nnoremap <space> za
 set foldmethod=indent
 
 set clipboard=unnamed
+set mouse=a
