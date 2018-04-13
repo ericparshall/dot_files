@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+        name = Eric Parshall
+        email = eparshall@nav.com
+[core]
+	excludesfile = /Users/eparshall/.gitignore_global
+	autocrlf = input
