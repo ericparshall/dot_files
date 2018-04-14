@@ -4,7 +4,7 @@ parse_git_branch() {
 }
 
 windir() {
-        echo "$(pwd | tr / '\')"
+        echo "$(pwd | tr / '\\')"
 }
 
 export PS1="C:\$(windir)>\[\033[33m\]\$(parse_git_branch)\[\033[00m\]"
