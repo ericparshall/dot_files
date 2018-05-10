@@ -8,4 +8,9 @@
 ehthumbs.db
 Thumbs.db
 .idea/
+log/
+
+
+.env_backup.yml
+
 
