@@ -6,6 +6,11 @@
 [user]
         name = Eric Parshall
         email = eparshall@nav.com
+	signingkey = 5744A8902A8DB4C2
 [core]
 	excludesfile = /Users/eparshall/.gitignore_global
 	autocrlf = input
+[url "git@git.nav.com:"]
+	insteadOf = https://git.nav.com/
+[commit]
+	gpgsign = false
